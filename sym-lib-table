@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name mtouch)(type Legacy)(uri ${KIPRJMOD}/New_Library.lib)(options "")(descr ""))
+  (lib (name New_Library)(type Legacy)(uri C:/Users/kurilab/Documents/test/New_Library.lib)(options "")(descr "")(disabled))
+  (lib (name test-rescue)(type Legacy)(uri ${KIPRJMOD}/test-rescue.lib)(options "")(descr ""))
+  (lib (name clock)(type Legacy)(uri ${KIPRJMOD}/clock.lib)(options "")(descr ""))
+)
