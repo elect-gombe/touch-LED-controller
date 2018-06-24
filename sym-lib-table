@@ -3,4 +3,6 @@
   (lib (name New_Library)(type Legacy)(uri C:/Users/kurilab/Documents/test/New_Library.lib)(options "")(descr "")(disabled))
   (lib (name test-rescue)(type Legacy)(uri ${KIPRJMOD}/test-rescue.lib)(options "")(descr ""))
   (lib (name clock)(type Legacy)(uri ${KIPRJMOD}/clock.lib)(options "")(descr ""))
+  (lib (name PIC)(type Legacy)(uri /home/gombe/workspace/test/PIC.lib)(options "")(descr ""))
+  (lib (name slider)(type Legacy)(uri /home/gombe/workspace/test/slider.lib)(options "")(descr ""))
 )
