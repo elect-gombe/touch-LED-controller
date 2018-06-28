@@ -1286,10 +1286,10 @@ Wire Wire Line
 	4700 4750 5050 4750
 Connection ~ 4700 4750
 Wire Wire Line
-	5050 4750 5400 4750
+	5050 4750 5300 4750
 Connection ~ 5050 4750
 Wire Wire Line
-	5400 4950 5050 4950
+	5400 4950 5300 4950
 Connection ~ 5050 4950
 $Comp
 L Device:C_Small C14
@@ -1601,4 +1601,46 @@ Wire Wire Line
 	3100 2850 3400 2850
 Wire Wire Line
 	2600 2750 5150 2750
+$Comp
+L Device:CP_Small C19
+U 1 1 5B32FFC6
+P 6050 5000
+F 0 "C19" H 5962 4954 50  0000 R CNN
+F 1 "100u 12.5V" H 6500 5100 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x4.5" H 6050 5000 50  0001 C CNN
+F 3 "~" H 6050 5000 50  0001 C CNN
+	1    6050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C18
+U 1 1 5B33041D
+P 6050 4750
+F 0 "C18" H 5962 4704 50  0000 R CNN
+F 1 "100u 12.5V" H 6500 4850 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x4.5" H 6050 4750 50  0001 C CNN
+F 3 "~" H 6050 4750 50  0001 C CNN
+	1    6050 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4850 6050 4900
+Wire Wire Line
+	6050 4650 6050 4600
+Wire Wire Line
+	6050 4600 5300 4600
+Wire Wire Line
+	5300 4600 5300 4750
+Connection ~ 5300 4750
+Wire Wire Line
+	5300 4750 5400 4750
+Wire Wire Line
+	5300 4950 5300 5150
+Wire Wire Line
+	5300 5150 6050 5150
+Wire Wire Line
+	6050 5150 6050 5100
+Connection ~ 5300 4950
+Wire Wire Line
+	5300 4950 5050 4950
 $EndSCHEMATC
